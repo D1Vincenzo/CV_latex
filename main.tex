@@ -1,0 +1,123 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\geometry{a4paper, top=0.2in, bottom=0.1in} % Set paper size and top and bottom margins
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large XINYANG HUANG}\\[2pt] 
+London, UK | \href{mailto:huangxinyangapp@163.com}{vincenthuang23@163.com} | (+44) 7810638952 | \href{https://www.linkedin.com/in/xinyang-huang/}{linkedin.com} | \href{https://github.com/D1Vincenzo}{github.com} 
+\end{center}
+
+
+% Experience Section
+% Direct Drive
+\section*{EXPERIENCE}
+\noindent
+\textbf{Direct Drive Technology} \hfill Guangdong, China\\ 
+\textit{Research and Development Engineer Intern} \hfill Aug 2023 | Sep 2023 (On-site), Oct 2023 | Mar 2024 (Remote)
+\begin{itemize}
+    \item Designed and refined the generative models for UI systems on hardware interfaces, utilizing QT and Python. 
+    \item Engineered and evaluated prototype demos, detailing their underlying mechanisms with Fusion 360.
+    \item Engaged collaboratively in the full project lifecycle - from requirements gathering and system design to development, testing, and deployment.
+    \item Monitored project timelines, addressing technical challenges as they arose to ensure adherence to deadlines.
+    \item Authored comprehensive documentation, including detailed technical specifications and user guides, to support project delivery and maintenance.
+% SIASUN
+\end{itemize}
+\noindent
+\textbf{SIASUN Robot \& Automation Co., Ltd} \hfill Jiangsu, China\\ 
+\textit{Mobile Robot Project Assistant Intern} \hfill Jul 2023 | Aug 2023  
+\begin{itemize}
+    \item Spearheaded the installation and calibration of robotic systems, significantly enhancing operational efficiency. 
+    \item Conducted data collection and analysis, contributing to the development of high-precision robotic functionalities.
+    \item Contributed to the resolution of technical challenges, ensuring robots performed optimally for essential operations.
+\end{itemize}
+
+
+% Education Section
+\section*{EDUCATION}
+% Master
+\noindent
+\textbf{University College London}, London, UK \hfill  Incoming Sep 2024 |  Sep 2025\\ 
+Medical Robotics and Artificial Intelligence MSc \hfill Offer Accepted
+\begin{itemize}
+    \item \textbf{Major Courses:}  Robotic Systems Engineering, MSc Research Project, Artificial Intelligence for Surgery and Intervention, Medical Robotics and Devices, Surgical Data Science
+\end{itemize}
+
+% UCL
+\noindent
+\textbf{University College London}, London, UK \hfill  Sep 2021 |  Jun 2024\\ % University name and location
+Mechanical Engineering BEng, Minor in Computer Science \hfill Expected First-Class Honours (Average Mark: 70+) % Degree and GPA
+\begin{itemize}
+    \item \textbf{Major Courses Studied:}  Mathematical Modelling and Analysis, Control and Instrumentation, Programming (Python), Thermodynamics, Fluid Mechanics, Engineering Dynamics, Mechanics of Solid and Structures, Materials, Manufacturing and Designs (CAD Design) 
+    \item \textbf{Minor in Computer Science:} Programming (Python), Data Science (HTML, CSS, SQL, Flask, Plotly Dash), Applied Software Engineering
+    \item \textbf{3rd Year Module:} Dynamics and Control, Advanced Thermodynamics and Fluid Mechanics, Elasticity and Plasticity, Undergraduate Individual Project, Project Management
+    \item \textbf{3rd Year Individual Project: \textit{Enhanced Robotic Navigation Using Multi-sensor Fusion}} Elevating indoor robot navigation by fusing LiDAR with camera technology, utilizing ROS2, SLAM, and OpenCV. Aiming to overcome LiDAR's limitations in detecting close-to-floor obstacles. Programming language used are C++ and Python
+\end{itemize}
+
+
+
+% Projects Section
+\section*{COMPETITIONS \& PROJECTS}
+% Mechathon
+\noindent
+\textbf{UCL Mechathon Competition 2023} \hfill London, UK\\ 
+\textit{Leader, CAD builder, Operator}  \hfill Jan 2023 \\
+Sponsored by Autodesk and organized by UCL, the Competition brought together 16 teams to design and build a working robotic prototype of Hydraulic cranes within a 36-hour limit.
+\begin{itemize}
+    \item Awarded Silver Medal among 16 competing teams
+    \item Independently designed and built the CAD model using Fusion 360.
+\end{itemize}
+% Hackathon
+\noindent
+\textbf{JP Morgan Chase \& Co. Code for Good Hackathon} \hfill London, UK\\
+\textit{Front-end Engineer} \hfill Oct 2022\\
+Build an NLP-powered search engine for animal testing alternatives using SpaCy and Facebook AI Similarity Search libraries in 48-hour limit.
+\begin{itemize}
+    \item Implemented interactive features using Bootstrap 5, HTML5, JavaScript, and CSS3, ensuring a responsive and intuitive user experience.
+    \item Contributed to the project's strategy by aligning the development goals with FRAME (an organization)'s mission.
+\end{itemize}
+% Voice control robot project
+\noindent
+\textbf{Voice-Control Robot Program} \hfill Jun 2023\\
+Develop a Python-based program for robot voice control, integrating speech-to-text functionalities and machine learning models for efficient real-time command output. 
+\begin{itemize}
+    \item Built a custom training module for enhancing voice command recognition, and a word embedding script to facilitate natural language understanding in robotic applications. 
+    \item This program is fully tested on Ubuntu ROS2 and MacOS.
+\end{itemize}
+
+
+
+% Skills section
+\section*{SKILLS}
+\itab{\textbf{Python:} Proficient} \tab{}  \tab{\textbf{ROS:} Proficient}
+\\ \itab{\textbf{C++:} Beginner} \tab{}  \tab{\textbf{MATLAB \& Simulink:} Proficient} 
+\\ \itab{\textbf{JavaScript:} Beginner} \tab{}  \tab{\textbf{Fusion 360:} Proficient} 
+\\ \itab{\textbf{Git:} Proficient} \tab{}  \tab{\textbf{HTML \& CSS:} Proficient} 
+\\ \itab{\textbf{Mandarin:} Native} \tab{}  \tab{\textbf{English:} Proficient} 
+
+
+
+
+% End document
+\end{document}
